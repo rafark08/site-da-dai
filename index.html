@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Site da Dairelys</title>
+    <style>
+        body {
+            background-color: pink;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2, h5 {
+            text-align: center;
+            color: purple;
+            margin: 0.5em 0;
+        }
+        .centralizar {
+            text-align: center;
+            padding: 10px;
+        }
+        ul {
+            padding-left: 20px;
+            text-align: left;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+        }
+        .gifs {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .gifs img {
+            margin: 10px;
+            max-width: 150px; /* Aumentando o tamanho dos gifs */
+            height: auto;
+        }
+        .gif-canto {
+            position: fixed;
+            width: 150px; /* Aumentando o tamanho dos gifs nos cantos */
+            height: 150px;
+            z-index: 9999;
+        }
+        .canto-esquerdo-superior {
+            top: 0;
+            left: 0;
+        }
+        .canto-direito-superior {
+            top: 0;
+            right: 0;
+        }
+        .canto-esquerdo-inferior {
+            bottom: 0;
+            left: 0;
+        }
+        .canto-direito-inferior {
+            bottom: 0;
+            right: 0;
+        }
+        @media (max-width: 600px) {
+            h1, h2, h5 {
+                font-size: 1.2em;
+            }
+            .gif-canto {
+                width: 100px; /* Reduzindo o tamanho dos gifs em dispositivos móveis */
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="centralizar">
+        <h1>SITE INCRÍVEL DA DAIRELYS</h1>
+        <h5>(feito pelo seu INCRÍVEL amigo, Rafael)</h5>
+        <h2><b>CARACTERÍSTICAS DA SENHORITA DAIRELYS</b></h2>
+        <ul>
+            <li>Pele parda</li>
+            <li>Aproximadamente 1,65m de altura</li>
+            <li>Olhos castanhos claros</li>
+            <li>Cabelo grande cacheado</li>
+        </ul>
+        <img src="https://imgur.com/gz21lNf.jpg" width="550" height="500" alt="Dairelys">
+        <h2><b>Sobre a vida da Dairelys:</b></h2>
+        <ul>
+            <li>Nasceu na Ciudad Guayana, no estado de Bolívar na Venezuela</li>
+            <li>Nasceu em 23/09/2008, ou seja, possui 16 anos</li>
+            <li>Atualmente mora em Videira, no estado de Santa Catarina no Brasil</li>
+            <li>Estuda na escola Prof Adelina Regis</li>
+        </ul>
+        <img src="https://imgur.com/n5YqyK5.jpg" width="550" height="500" alt="Dairelys">
+        <h1>ela é a garota mais linda, perfeita e legal que o Rafael já conheceu ♡</h1>
+    </div>
+    <div class="gifs">
+        <img src="https://media.giphy.com/media/26AHG5KGFxSkUWw1i/giphy.gif" alt="Gif Fofo">
+        <img src="https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif" alt="Gif Fofo">
+        <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm01b29rZ3lyNGdzN3pwcHR2ZDN1Y2xzd2ZyNTgzc3g1dHI3dnA0dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AcmYFlSxGkeNa/giphy.gif" alt="Gif Fofo">
+    </div>
+    <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3Fvazk4d3pvZmtvZ3JvdTFueTJ6bzZ2eXlpZzM3Mm11bXk1OG1kNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26FLdmIp6wJr91JAI/giphy.gif" class="gif-canto canto-esquerdo-superior" alt="Gif Romântico">
+    <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjdlZ2ZwZ3I0NDA5dmYzaXlmemU4MnNxMXF3ZTNhdHczaWVrNzE0YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1hqb8LwPS2xCNCpWH8/giphy.gif" class="gif-canto canto-direito-superior" alt="Gif Romântico">
+    <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnRoa2N0MDdoMzE2eWZ4ZGxranpiNWszdjJnOXJwZ3QzZXllbnRvZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HJZblxmxHb7CbZtmNy/giphy.gif" class="gif-canto canto-esquerdo-inferior" alt="Gif Romântico">
+    <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2piNWVyYnM1cTNpaTcwYTJxN2V5am9rcTdtMnh4MGYyYXljczAxOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/enrq327a3sMIJAS5jA/giphy.gif" class="gif-canto canto-direito-inferior" alt="Gif Romântico">
+</body>
+</html>
